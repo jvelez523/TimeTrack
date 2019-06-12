@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Row, Col } from "antd";
 import RevChart from "./RevChart";
 import BilledChart from "./BilledChart";
-import Overtime from "./Overtime";
 import TimeCard from "./TimeCard";
 
 export default class RevenueDisplay extends Component {
