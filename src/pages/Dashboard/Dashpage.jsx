@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Layout, Button, Typography } from 'antd';
+import { Layout, Typography } from 'antd';
 import RevenueDisplay from './components/RevenueDisplay';
 const { Title } = Typography
 const { Content, Header } = Layout;
