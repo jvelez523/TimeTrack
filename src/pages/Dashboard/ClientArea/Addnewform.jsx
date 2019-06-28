@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Modal} from 'antd'
+import WrappedFormClient from './Form';
 
 export default class Addnewform extends Component {
 
@@ -55,7 +56,7 @@ export default class Addnewform extends Component {
           confirmLoading={this.props.loading}
           onCancel={this.props.cancel}
         >
-          <p>{ModalText}</p>
+          <p><WrappedFormClient /></p>
         </Modal>
       </div>
     )
