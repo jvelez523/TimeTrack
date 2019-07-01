@@ -42,7 +42,7 @@ export default class Addnewform extends Component {
 
   render() {
 
-    const { visible, confirmLoading, ModalText } = this.state;
+    
 
 
 
